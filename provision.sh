@@ -32,3 +32,5 @@ rm -rf aws awscli-exe-linux-x86_64.zip
 
 ssh-keygen -b 4096 -t rsa -f /home/devoverlord/.ssh/id_rsa -q -N ""
 cat /home/devoverlord/.ssh/id_rsa.pub
+eval $(ssh-agent -s)
+ssh-add /home/devoverlord/.ssh/id_rsa
