@@ -30,5 +30,5 @@ sudo ./aws/install
 aws --version
 rm -rf aws awscli-exe-linux-x86_64.zip
 
-ssh-keygen -b 4096 -t rsa -f ~/.ssh/id_rsa -q -N ""
-cat ~/.ssh/id_rsa.pub
+ssh-keygen -b 4096 -t rsa -f /home/devoverlord/.ssh/id_rsa -q -N ""
+cat /home/devoverlord/.ssh/id_rsa.pub
